@@ -1,6 +1,6 @@
 ## Pewlett-Hackard-Analysis
 
-#Overview of the analysis:#
+# Overview of the analysis:
 
 Pewlett Hackard is a large company with a vast number (thousands) of employees. Many are retiring very soon, leaving several vacant positions. To plan ahead, there needs to be a mentorship between the retirees and their replacements. Luckily Pewlett Hackard is a company that largely hires inside, so most employees are accounted for in the database. The first challenge was to import all of the csv files into the SQL database. After finding the keys between tables, tables could be joined to provide more clarifying information. The relationship between employees, departments, salaries, titles, department employees, department managers is charted out in the following ERD: 
 
@@ -10,7 +10,7 @@ The first priority was to determine the number of retirees by job title. This wa
 
 The second focus of this project was to single out all of the employees eligible for a mentorship program born within 1965. This was done by joining the employee, titles, and department employee tables and by filtering through a WHERE statement to ensure they met the age criteria and were current employees.  
 
-#Results:#
+# Results:
 
 •	About 90,000 of the 300,000 employees are retiring (30% cut in employment). There are around 1500 employees eligible for the mentorship program. 
 
@@ -26,7 +26,7 @@ The second focus of this project was to single out all of the employees eligible
 
 ![images](https://github.com/mcpoley/Pewlett-Hackard-Analysis/blob/main/images/eligible_by_dept.png)
 
-#Summary:#
+# Summary:
 
 o	How many roles will need to be filled as the "silver tsunami" begins to make an impact?
 
