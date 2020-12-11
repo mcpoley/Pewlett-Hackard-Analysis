@@ -3,7 +3,7 @@ Overview of the analysis: Explain the purpose of this analysis.
 
 Pewlett Hackard is a large company with a vast number (thousands) of employees. Many are retiring very soon, leaving several vacant positions. To plant ahead, there needs to be a mentorship between the retirees and their replacements. Luckily Pewlett Hackard is a company that largely hired inside, so most employees are accounted for in the database. The first challenge was to import all of the csv files into the SQL database. After finding the keys between tables, tables could be joined to provide more clarifying information. The relationship between employees, departments, salaries, titles, department employees, department managers is charted out in the following ERD: 
 
-![] (images/EmployeeDB.png)
+![] (images/github-EmployeeDB.png)
 
 The first priority was to determine the number of retirees by job title. This was done by first joining employee table with the title table, and specifying the retirement age range. Next, this table needed a further filter to only get unique employees per title from most recent to oldest positions. Finally, the total number of retiring employees per title was determined via grouping by title. 
 
